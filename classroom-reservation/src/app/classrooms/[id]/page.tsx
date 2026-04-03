@@ -25,7 +25,7 @@ export default async function ClassroomPage({ params }: Props) {
         ← 교실 목록으로
       </Link>
 
-      <div className="bg-white border rounded-xl p-5 mb-8">
+      <div className="bg-white border border-sky-200 rounded-xl p-5 mb-8 shadow-sm">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold">{classroom.name}</h1>
           <span className="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded-full">

@@ -1,12 +1,13 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-04-03T06:45:31.382Z",
+  "lastUpdated": "2026-04-03T07:15:45.281Z",
   "activeFeatures": [
     "supabase",
     "classroom-reservation",
     "[id]",
     "success",
-    "reservations"
+    "reservations",
+    "classrooms"
   ],
   "primaryFeature": "supabase",
   "features": {
@@ -32,7 +33,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-03T06:14:02.785Z",
-        "lastUpdated": "2026-04-03T06:41:28.973Z"
+        "lastUpdated": "2026-04-03T07:15:45.281Z"
       },
       "lastFile": "c:\\Users\\user\\git_sohyeon\\classroom-reservation\\src\\app\\page.tsx"
     },
@@ -45,7 +46,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-03T06:32:08.472Z",
-        "lastUpdated": "2026-04-03T06:45:14.686Z"
+        "lastUpdated": "2026-04-03T07:13:09.024Z"
       },
       "lastFile": "c:\\Users\\user\\git_sohyeon\\classroom-reservation\\src\\app\\classrooms\\[id]\\ReservationForm.tsx"
     },
@@ -71,9 +72,22 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-03T06:41:17.146Z",
-        "lastUpdated": "2026-04-03T06:45:31.382Z"
+        "lastUpdated": "2026-04-03T07:13:12.336Z"
       },
       "lastFile": "c:\\Users\\user\\git_sohyeon\\classroom-reservation\\src\\app\\reservations\\page.tsx"
+    },
+    "classrooms": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-03T07:15:09.221Z",
+        "lastUpdated": "2026-04-03T07:15:32.775Z"
+      },
+      "lastFile": "c:\\Users\\user\\git_sohyeon\\classroom-reservation\\src\\app\\admin\\classrooms\\ClassroomManager.tsx"
     }
   },
   "pipeline": {
@@ -84,7 +98,7 @@
   "session": {
     "startedAt": "2026-04-03T06:08:43.638Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-03T06:45:31.382Z"
+    "lastActivity": "2026-04-03T07:15:45.281Z"
   },
   "history": [
     {
@@ -174,6 +188,60 @@
     {
       "timestamp": "2026-04-03T06:45:31.382Z",
       "feature": "reservations",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T07:13:03.994Z",
+      "feature": "classroom-reservation",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T07:13:05.678Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T07:13:07.339Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T07:13:09.024Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T07:13:10.676Z",
+      "feature": "reservations",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T07:13:12.336Z",
+      "feature": "reservations",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T07:15:09.221Z",
+      "feature": "classrooms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T07:15:32.775Z",
+      "feature": "classrooms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T07:15:45.281Z",
+      "feature": "classroom-reservation",
       "phase": "do",
       "action": "updated"
     }

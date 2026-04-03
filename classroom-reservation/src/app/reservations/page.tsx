@@ -47,7 +47,7 @@ export default async function ReservationsPage({ searchParams }: Props) {
       </div>
 
       {/* 필터 */}
-      <form method="GET" className="bg-white border rounded-xl p-4 mb-6 flex flex-wrap gap-3 items-end">
+      <form method="GET" className="bg-white border border-sky-200 rounded-xl p-4 mb-6 flex flex-wrap gap-3 items-end shadow-sm">
         <div>
           <label className="block text-xs font-medium text-gray-500 mb-1">날짜</label>
           <input
@@ -112,7 +112,7 @@ export default async function ReservationsPage({ searchParams }: Props) {
 
       <div className="space-y-3">
         {reservations?.map((r) => (
-          <div key={r.id} className="bg-white border rounded-xl p-5">
+          <div key={r.id} className="bg-white border border-sky-200 rounded-xl p-5 shadow-sm">
             <div className="flex items-start justify-between">
               <div>
                 <div className="flex items-center gap-2 mb-1">

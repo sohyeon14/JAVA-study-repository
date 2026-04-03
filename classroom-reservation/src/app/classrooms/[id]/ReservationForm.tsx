@@ -72,7 +72,7 @@ export default function ReservationForm({ classroomId }: Props) {
 
   return (
     <div className="space-y-6">
-      <form onSubmit={handleSubmit} className="bg-white border rounded-xl p-6 space-y-5">
+      <form onSubmit={handleSubmit} className="bg-white border border-sky-200 rounded-xl p-6 space-y-5 shadow-sm">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">선생님 이름</label>
           <input
@@ -145,7 +145,7 @@ export default function ReservationForm({ classroomId }: Props) {
 
       {/* 해당 날짜 기존 예약 목록 */}
       {existingReservations.length > 0 && (
-        <div className="bg-white border rounded-xl p-5">
+        <div className="bg-white border border-sky-200 rounded-xl p-5 shadow-sm">
           <h3 className="text-sm font-semibold text-gray-700 mb-3">
             이 날 잡힌 예약 ({existingReservations.length}건)
           </h3>
