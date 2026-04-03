@@ -1,0 +1,197 @@
+{
+  "version": "3.0",
+  "lastUpdated": "2026-04-03T06:45:31.382Z",
+  "activeFeatures": [
+    "supabase",
+    "classroom-reservation",
+    "[id]",
+    "success",
+    "reservations"
+  ],
+  "primaryFeature": "supabase",
+  "features": {
+    "supabase": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-03T06:13:55.942Z",
+        "lastUpdated": "2026-04-03T06:13:59.240Z"
+      },
+      "lastFile": "c:\\Users\\user\\git_sohyeon\\classroom-reservation\\src\\lib\\supabase\\server.ts"
+    },
+    "classroom-reservation": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-03T06:14:02.785Z",
+        "lastUpdated": "2026-04-03T06:41:28.973Z"
+      },
+      "lastFile": "c:\\Users\\user\\git_sohyeon\\classroom-reservation\\src\\app\\page.tsx"
+    },
+    "[id]": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-03T06:32:08.472Z",
+        "lastUpdated": "2026-04-03T06:45:14.686Z"
+      },
+      "lastFile": "c:\\Users\\user\\git_sohyeon\\classroom-reservation\\src\\app\\classrooms\\[id]\\ReservationForm.tsx"
+    },
+    "success": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-03T06:32:37.296Z",
+        "lastUpdated": "2026-04-03T06:32:37.296Z"
+      },
+      "lastFile": "c:\\Users\\user\\git_sohyeon\\classroom-reservation\\src\\app\\classrooms\\[id]\\success\\page.tsx"
+    },
+    "reservations": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-03T06:41:17.146Z",
+        "lastUpdated": "2026-04-03T06:45:31.382Z"
+      },
+      "lastFile": "c:\\Users\\user\\git_sohyeon\\classroom-reservation\\src\\app\\reservations\\page.tsx"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-04-03T06:08:43.638Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-04-03T06:45:31.382Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-04-03T06:13:55.942Z",
+      "feature": "supabase",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:13:59.240Z",
+      "feature": "supabase",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:14:02.785Z",
+      "feature": "classroom-reservation",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:30:45.293Z",
+      "feature": "classroom-reservation",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:30:56.897Z",
+      "feature": "classroom-reservation",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:31:01.816Z",
+      "feature": "classroom-reservation",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:31:07.528Z",
+      "feature": "classroom-reservation",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:32:08.472Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:32:21.140Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:32:37.296Z",
+      "feature": "success",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:34:43.706Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:41:17.146Z",
+      "feature": "reservations",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:41:28.973Z",
+      "feature": "classroom-reservation",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:45:14.686Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-03T06:45:31.382Z",
+      "feature": "reservations",
+      "phase": "do",
+      "action": "updated"
+    }
+  ],
+  "stateMachine": {
+    "defaultWorkflow": "default",
+    "activeWorkflows": {},
+    "totalTransitions": 0
+  },
+  "automation": {
+    "globalLevel": 2,
+    "trustScore": 40,
+    "pendingApprovals": 0,
+    "lastGateResult": null
+  },
+  "team": {
+    "enabled": true,
+    "stateFile": ".bkit/runtime/agent-state.json",
+    "eventsFile": ".bkit/runtime/agent-events.jsonl"
+  }
+}
